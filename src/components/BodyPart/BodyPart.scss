@@ -1,3 +1,13 @@
-* {
-  background: aliceblue;
+.container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+  z-index: 0;
+  opacity: 0;
+  border: 0;
+  &.is-selected {
+    z-index: 10;
+    opacity: 1;
+  }
 }

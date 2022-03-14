@@ -4,14 +4,26 @@ import "./BodyPart.scss";
 export interface BodyPartProps {
   isSelected: boolean;
   imageSrc: string;
+  imageSize?: number;
 }
 
-export const BodyPart = ({ isSelected, imageSrc }: BodyPartProps) => {
+export const BodyPart = ({
+  isSelected,
+  imageSrc,
+  imageSize = 64,
+}: BodyPartProps) => {
+  if (isSelected === undefined || imageSrc === undefined) {
+    return <div data-testid="empty-div"></div>;
+  }
   return (
-    <div className="absolute flex justify-center select-none">
-      <div className={` ${isSelected ? "z-10 opacity-100" : "z-0 opacity-0"}`}>
-        <img className="rounded-lg" src={imageSrc} alt="" />
-      </div>
+    <div className={isSelected ? "container is-selected" : "container"}>
+      <img
+        src={imageSrc}
+        width={imageSize}
+        height={imageSize}
+        data-testid="image"
+        alt=""
+      />
     </div>
   );
 };
