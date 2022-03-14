@@ -27,7 +27,10 @@ export default [
       external(),
       resolve(),
       commonjs(),
-      typescript({ tsconfig: "./tsconfig.json" }),
+      typescript({
+        tsconfig: "./tsconfig.json",
+        exclude: ["./src/stories/**/*"],
+      }),
       postcss(),
       terser(),
     ],
@@ -36,6 +39,6 @@ export default [
     input: "dist/esm/types/index.d.ts",
     output: [{ file: "dist/index.d.ts", format: "esm" }],
     plugins: [dts()],
-    external: [/\.css$/],
+    external: [/\.scss$/],
   },
 ];
