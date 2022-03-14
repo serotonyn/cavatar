@@ -1,0 +1,33 @@
+{
+  "name": "@serotonyn/cavatar",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/serotonyn"
+  },
+  "version": "0.0.0",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "description": "A component for creating a custom avatar",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Serotonyn",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@types/react": "^17.0.40",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.70.1",
+    "rollup-plugin-dts": "^4.2.0",
+    "typescript": "^4.6.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}
