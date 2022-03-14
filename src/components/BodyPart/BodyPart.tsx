@@ -1,11 +1,17 @@
 import React from "react";
-// import "./BodyPart.scss";
+import "./BodyPart.scss";
 
-export interface BodyPartProps {}
+export interface BodyPartProps {
+  isSelected: boolean;
+  imageSrc: string;
+}
 
-/**
- * Primary UI component for user interaction
- */
-export const BodyPart = (props: BodyPartProps) => {
-  return <button type="button"></button>;
+export const BodyPart = ({ isSelected, imageSrc }: BodyPartProps) => {
+  return (
+    <div className="absolute flex justify-center select-none">
+      <div className={` ${isSelected ? "z-10 opacity-100" : "z-0 opacity-0"}`}>
+        <img className="rounded-lg" src={imageSrc} alt="" />
+      </div>
+    </div>
+  );
 };
