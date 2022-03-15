@@ -16,14 +16,13 @@ export const BodyPart = ({
     return <div data-testid="empty-div"></div>;
   }
   return (
-    <div className={isSelected ? "container is-selected" : "container"}>
-      <img
-        src={imageSrc}
-        width={imageSize}
-        height={imageSize}
-        data-testid="image"
-        alt=""
-      />
-    </div>
+    <img
+      src={imageSrc}
+      width={imageSize}
+      height={imageSize}
+      data-testid="image"
+      alt=""
+      className={isSelected ? "container is-selected" : "container"}
+    />
   );
 };

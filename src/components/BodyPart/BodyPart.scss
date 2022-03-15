@@ -1,13 +1,36 @@
 .container {
-  position: absolute;
-  display: flex;
-  justify-content: center;
   user-select: none;
-  z-index: 0;
-  opacity: 0;
-  border: 0;
+  display: none;
   &.is-selected {
-    z-index: 10;
-    opacity: 1;
+    display: initial;
   }
+}
+
+/* -------------------------------------------------------------------------------------------------
+ * reset
+ * -----------------------------------------------------------------------------------------------*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Untitled Sans, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
+}
+
+svg {
+  display: block;
+  vertical-align: middle;
+}
+
+html,
+body {
+  height: 100%;
 }
