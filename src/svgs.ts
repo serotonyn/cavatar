@@ -6,11 +6,11 @@ import backgroundDark from "../assets/background/dark.svg";
 import backgroundGreen from "../assets/background/green.svg";
 import backgroundGrey from "../assets/background/grey.svg";
 import backgroundPink from "../assets/background/pink.svg";
-import backgroundPurple from "../assets/background/pink.svg";
-import backgroundRed from "../assets/background/pink.svg";
-import backgroundTeal from "../assets/background/pink.svg";
-import backgroundWhite from "../assets/background/pink.svg";
-import backgroundYellow from "../assets/background/pink.svg";
+import backgroundPurple from "../assets/background/purple.svg";
+import backgroundRed from "../assets/background/red.svg";
+import backgroundTeal from "../assets/background/teal.svg";
+import backgroundWhite from "../assets/background/white.svg";
+import backgroundYellow from "../assets/background/yellow.svg";
 
 export const background = [
   backgroundBlue,

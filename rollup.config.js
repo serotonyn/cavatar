@@ -5,6 +5,7 @@ import dts from "rollup-plugin-dts";
 import postcss from "rollup-plugin-postcss";
 import external from "rollup-plugin-peer-deps-external";
 import { terser } from "rollup-plugin-terser";
+import svg from "rollup-plugin-svg";
 
 const pkg = require("./package.json");
 
@@ -32,6 +33,9 @@ export default [
         exclude: ["./src/stories/**/*"],
       }),
       postcss(),
+      svg({
+        base64: true,
+      }),
       terser(),
     ],
   },
