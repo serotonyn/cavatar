@@ -1,0 +1,12 @@
+// className="relative flex justify-center items-center w-64 mt-8 mx-auto lg:w-32 h-32 select-none m-10 overflow-hidden rounded-full">
+#display-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  height: 170px;
+  margin-top: 12px auto 0;
+  user-select: none;
+  overflow: hidden;
+  border-radius: 20%;
+}
