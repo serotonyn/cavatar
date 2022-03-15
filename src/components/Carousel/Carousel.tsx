@@ -4,48 +4,41 @@ import { BodyPart } from "../BodyPart/BodyPart";
 import { CarouselButton } from "../CarouselButton/CarouselButton";
 import { parts } from "../Carousels/Carousels";
 
+type bodyPart = "backgrounds" | "hairs";
 export interface CarouselProps {
   bodySectionCollection: string[];
   selected: number;
-  setState: React.Dispatch<
-    React.SetStateAction<{ [key: keyof typeof parts]: number }>
-  >;
-  name?: keyof typeof parts;
+  // setState: React.Dispatch<
+  //   React.SetStateAction<{ [key: keyof typeof parts]: number }>
+  // >;
+  name: string;
+  // increment: (name: keyof typeof parts) => {};
+  // decrement: (name: keyof typeof parts) => {};
+  // setToLastBodyPart: (name: keyof typeof parts) => {};
+  // setToFirstBodyPart: (name: keyof typeof parts) => {};
+  next: (name: string) => void;
+  prev: (name: string) => void;
 }
 
 export const Carousel = ({
   bodySectionCollection,
   selected,
-  setState,
+  // setState,
   name,
+  // setToFirstBodyPart,
+  // setToLastBodyPart,
+  // increment,
+  // decrement,
+  next,
+  prev,
 }: CarouselProps) => {
-  if (!name || !bodySectionCollection.length) return null;
-
-  const upLimit = bodySectionCollection.length - 1;
-  const downLimit = 0;
-
-  const next = () => {
-    if (selected === upLimit) {
-      setState((state) => ({ ...state, [name]: downLimit }));
-    } else {
-      setState((state) => ({ ...state, [name]: state[name] + 1 }));
-    }
-  };
-  const prev = () => {
-    if (selected === downLimit) {
-      setState((state) => ({ ...state, [name]: upLimit }));
-    } else {
-      setState((state) => ({ ...state, [name]: state[name] - 1 }));
-    }
-  };
-
   return (
     <div id="carousel-container" data-testid="carousel-container">
-      <CarouselButton handleClick={prev} direction="LEFT" />
+      <CarouselButton handleClick={() => prev(name)} direction="LEFT" />
       {bodySectionCollection.map((item, i) => {
         return <BodyPart key={i} isSelected={selected == i} imageSrc={item} />;
       })}
-      <CarouselButton handleClick={next} direction="RIGHT" />
+      <CarouselButton handleClick={() => next(name)} direction="RIGHT" />
     </div>
   );
 };
