@@ -12,7 +12,6 @@ const Template: ComponentStory<typeof Carousel> = (args) => (
   <Carousel {...args} />
 );
 
-console.log(cavatar.backgrounds);
 export const Basic = Template.bind({});
 Basic.args = {
   name: "backgrounds",

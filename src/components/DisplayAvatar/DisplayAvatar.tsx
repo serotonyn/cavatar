@@ -9,12 +9,13 @@ export interface DisplayAvatarProps {}
 export const DisplayAvatar = observer(({}: DisplayAvatarProps) => {
   return (
     <div data-testid="display-avatar" id="display-avatar">
+      {/* <img src="http://localhost:6006/static/media/assets/background/blue.svg" /> */}
       <BodyPartImage
         imageSrc={parts.backgrounds[cavatar["backgrounds"]]}
         isSelected
         imageSize={140}
       />
-      <BodyPartImage
+      {/* <BodyPartImage
         className="display-avatar-image"
         imageSrc={parts.bodys[cavatar["bodys"]]}
         isSelected
@@ -55,7 +56,7 @@ export const DisplayAvatar = observer(({}: DisplayAvatarProps) => {
         imageSrc={parts.noses[cavatar["noses"]]}
         isSelected
         imageSize={140}
-      />
+      /> */}
     </div>
   );
 });

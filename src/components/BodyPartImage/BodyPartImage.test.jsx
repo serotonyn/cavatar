@@ -1,11 +1,11 @@
 import { cleanup, render } from "@testing-library/react";
 import React from "react";
-import { BodyPart } from "./BodyPart";
+import { BodyPartImage } from "./BodyPartImage";
 
 afterEach(cleanup);
 
 test("BodyPart renders with empty div if no props are passed", () => {
-  const { getByTestId } = render(<BodyPart />);
+  const { getByTestId } = render(<BodyPartImage />);
 
   expect(getByTestId("empty-div")).toBeTruthy();
 });
