@@ -1,9 +1,9 @@
-import "./Carousel.scss";
+import { observer } from "mobx-react-lite";
 import React from "react";
 import { BodyPartImage } from "../BodyPartImage/BodyPartImage";
 import { CarouselButton } from "../CarouselButton/CarouselButton";
 import { BodyPart, cavatar } from "../state";
-import { observer } from "mobx-react-lite";
+import "./Carousel.scss";
 
 export interface CarouselProps {
   bodySectionCollection: string[];

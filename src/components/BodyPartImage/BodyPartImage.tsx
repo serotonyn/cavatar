@@ -1,6 +1,6 @@
+import { observer } from "mobx-react-lite";
 import React from "react";
 import "./BodyPartImage.scss";
-import { observer } from "mobx-react-lite";
 
 export interface BodyPartImageProps {
   isSelected: boolean;

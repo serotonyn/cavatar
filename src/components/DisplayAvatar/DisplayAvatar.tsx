@@ -1,8 +1,8 @@
-import "./DisplayAvatar.scss";
 import { observer } from "mobx-react-lite";
 import React from "react";
-import { cavatar, parts } from "../state";
 import { BodyPartImage } from "../BodyPartImage/BodyPartImage";
+import { cavatar, parts } from "../state";
+import "./DisplayAvatar.scss";
 
 interface DisplayAvatarProps {}
 
@@ -14,11 +14,6 @@ export const DisplayAvatar = observer(({}: DisplayAvatarProps) => {
         isSelected
         imageSize={140}
       />
-      {/* <img
-        id="display-avatar-image"
-        src={parts.backgrounds[cavatar["backgrounds"]]}
-        style={{ userSelect: "none" }}
-      /> */}
       <BodyPartImage
         className="display-avatar-image"
         imageSrc={parts.bodys[cavatar["bodys"]]}

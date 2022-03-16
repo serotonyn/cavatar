@@ -1,6 +1,6 @@
+import { cleanup, render } from "@testing-library/react";
 import React from "react";
 import { Carousel } from "./Carousel";
-import { render, cleanup } from "@testing-library/react";
 
 afterEach(cleanup);
 

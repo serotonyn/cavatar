@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "../Carousel/Carousel";
 import { DisplayAvatar } from "../DisplayAvatar/DisplayAvatar";
-import { BodyPart, cavatar, parts, Parts } from "../state";
+import { BodyPart, cavatar, parts } from "../state";
 
 export const Carousels = ({}) => {
   const next = (name: BodyPart) => {

@@ -1,7 +1,7 @@
+import { ComponentMeta, ComponentStory } from "@storybook/react";
 import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
-import { Carousel } from "./Carousel";
 import { cavatar, parts } from "../state";
+import { Carousel } from "./Carousel";
 
 export default {
   title: "Cavatar/Carousel",

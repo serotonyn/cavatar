@@ -1,6 +1,6 @@
+import { cleanup, render } from "@testing-library/react";
 import React from "react";
 import { BodyPart } from "./BodyPart";
-import { render, cleanup } from "@testing-library/react";
 
 afterEach(cleanup);
 

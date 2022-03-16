@@ -1,5 +1,5 @@
+import { ComponentMeta, ComponentStory } from "@storybook/react";
 import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { Carousels } from "./Carousels";
 
 export default {
@@ -12,6 +12,3 @@ const Template: ComponentStory<typeof Carousels> = (args) => (
 );
 
 export const Basic = Template.bind({});
-Basic.args = {
-  name: "backgrounds",
-};
