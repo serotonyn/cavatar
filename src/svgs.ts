@@ -29,14 +29,14 @@ export const background = [
  * body
  * -----------------------------------------------------------------------------------------------*/
 import body456DFFCheckered from "../assets/body/456DFF/checkered.svg";
-import body456DFFRound from "../assets/body/456DFF/checkered.svg";
-import body456DFFSmall from "../assets/body/456DFF/checkered.svg";
-import body456DFFSquare from "../assets/body/456DFF/checkered.svg";
+import body456DFFRound from "../assets/body/456DFF/round.svg";
+import body456DFFSmall from "../assets/body/456DFF/small.svg";
+import body456DFFSquare from "../assets/body/456DFF/square.svg";
 
 import body54D7C7Checkered from "../assets/body/54D7C7/checkered.svg";
-import body54D7C7Round from "../assets/body/54D7C7/checkered.svg";
-import body54D7C7Small from "../assets/body/54D7C7/checkered.svg";
-import body54D7C7Square from "../assets/body/54D7C7/checkered.svg";
+import body54D7C7Round from "../assets/body/54D7C7/round.svg";
+import body54D7C7Small from "../assets/body/54D7C7/small.svg";
+import body54D7C7Square from "../assets/body/54D7C7/square.svg";
 
 import body5A45FFCheckered from "../assets/body/5A45FF/checkered.svg";
 import body5A45FFRound from "../assets/body/5A45FF/round.svg";
@@ -128,58 +128,58 @@ export const eyes = [
 import facialHair362C47BeardmustacheBrunette from "../assets/facialHair/362C47/beardmustache-brunette.svg";
 import facialHair362C47Goatee from "../assets/facialHair/362C47/goatee.svg";
 import facialHair362C47MustacheBlack from "../assets/facialHair/362C47/mustache-black.svg";
-import facialHair362C47Shadow from "../assets/facialHair/362C47/goatee.svg";
-import facialHair362C47Soulpatch from "../assets/facialHair/362C47/goatee.svg";
-import facialHair362C47Walrus from "../assets/facialHair/362C47/goatee.svg";
+import facialHair362C47Shadow from "../assets/facialHair/362C47/shadow.svg";
+import facialHair362C47Soulpatch from "../assets/facialHair/362C47/soulpatch.svg";
+import facialHair362C47Walrus from "../assets/facialHair/362C47/walrus.svg";
 
 import facialHair5AC4D4BeardmustacheBrunette from "../assets/facialHair/5AC4D4/beardmustache-brunette.svg";
-import facialHair5AC4D4Goatee from "../assets/facialHair/5AC4D4/beardmustache-brunette.svg";
+import facialHair5AC4D4Goatee from "../assets/facialHair/5AC4D4/goatee.svg";
 import facialHair5AC4D4MustacheBlack from "../assets/facialHair/5AC4D4/mustache-black.svg";
-import facialHair5AC4D4Shadow from "../assets/facialHair/5AC4D4/mustache-black.svg";
-import facialHair5AC4D4Soulpatch from "../assets/facialHair/5AC4D4/mustache-black.svg";
-import facialHair5AC4D4Walrus from "../assets/facialHair/5AC4D4/mustache-black.svg";
+import facialHair5AC4D4Shadow from "../assets/facialHair/5AC4D4/shadow.svg";
+import facialHair5AC4D4Soulpatch from "../assets/facialHair/5AC4D4/soulpatch.svg";
+import facialHair5AC4D4Walrus from "../assets/facialHair/5AC4D4/walrus.svg";
 
 import facialHair675E97BeardmustacheBrunette from "../assets/facialHair/675E97/beardmustache-brunette.svg";
-import facialHair675E97Goatee from "../assets/facialHair/675E97/beardmustache-brunette.svg";
+import facialHair675E97Goatee from "../assets/facialHair/675E97/goatee.svg";
 import facialHair675E97MustacheBlack from "../assets/facialHair/675E97/mustache-black.svg";
-import facialHair675E97Shadow from "../assets/facialHair/675E97/mustache-black.svg";
-import facialHair675E97Soulpatch from "../assets/facialHair/675E97/mustache-black.svg";
-import facialHair675E97Walrus from "../assets/facialHair/675E97/mustache-black.svg";
+import facialHair675E97Shadow from "../assets/facialHair/675E97/shadow.svg";
+import facialHair675E97Soulpatch from "../assets/facialHair/675E97/soulpatch.svg";
+import facialHair675E97Walrus from "../assets/facialHair/675E97/walrus.svg";
 
 import facialHair6c4545BeardmustacheBrunette from "../assets/facialHair/6c4545/beardmustache-brunette.svg";
-import facialHair6c4545Goatee from "../assets/facialHair/6c4545/beardmustache-brunette.svg";
+import facialHair6c4545Goatee from "../assets/facialHair/6c4545/goatee.svg";
 import facialHair6c4545MustacheBlack from "../assets/facialHair/6c4545/mustache-black.svg";
-import facialHair6c4545Shadow from "../assets/facialHair/6c4545/mustache-black.svg";
-import facialHair6c4545Soulpatch from "../assets/facialHair/6c4545/mustache-black.svg";
-import facialHair6c4545Walrus from "../assets/facialHair/6c4545/mustache-black.svg";
+import facialHair6c4545Shadow from "../assets/facialHair/6c4545/shadow.svg";
+import facialHair6c4545Soulpatch from "../assets/facialHair/6c4545/soulpatch.svg";
+import facialHair6c4545Walrus from "../assets/facialHair/6c4545/walrus.svg";
 
 import facialHairDEE1F5BeardmustacheBrunette from "../assets/facialHair/DEE1F5/beardmustache-brunette.svg";
-import facialHairDEE1F5Goatee from "../assets/facialHair/DEE1F5/beardmustache-brunette.svg";
+import facialHairDEE1F5Goatee from "../assets/facialHair/DEE1F5/goatee.svg";
 import facialHairDEE1F5MustacheBlack from "../assets/facialHair/DEE1F5/mustache-black.svg";
-import facialHairDEE1F5Shadow from "../assets/facialHair/DEE1F5/mustache-black.svg";
-import facialHairDEE1F5Soulpatch from "../assets/facialHair/DEE1F5/mustache-black.svg";
-import facialHairDEE1F5Walrus from "../assets/facialHair/DEE1F5/mustache-black.svg";
+import facialHairDEE1F5Shadow from "../assets/facialHair/DEE1F5/shadow.svg";
+import facialHairDEE1F5Soulpatch from "../assets/facialHair/DEE1F5/soulpatch.svg";
+import facialHairDEE1F5Walrus from "../assets/facialHair/DEE1F5/walrus.svg";
 
 import facialHairE15C66BeardmustacheBrunette from "../assets/facialHair/E15C66/beardmustache-brunette.svg";
-import facialHairE15C66Goatee from "../assets/facialHair/E15C66/beardmustache-brunette.svg";
+import facialHairE15C66Goatee from "../assets/facialHair/E15C66/goatee.svg";
 import facialHairE15C66MustacheBlack from "../assets/facialHair/E15C66/mustache-black.svg";
-import facialHairE15C66Shadow from "../assets/facialHair/E15C66/mustache-black.svg";
-import facialHairE15C66Soulpatch from "../assets/facialHair/E15C66/mustache-black.svg";
-import facialHairE15C66Walrus from "../assets/facialHair/E15C66/mustache-black.svg";
+import facialHairE15C66Shadow from "../assets/facialHair/E15C66/shadow.svg";
+import facialHairE15C66Soulpatch from "../assets/facialHair/E15C66/soulpatch.svg";
+import facialHairE15C66Walrus from "../assets/facialHair/E15C66/walrus.svg";
 
 import facialHairE16381BeardmustacheBrunette from "../assets/facialHair/E16381/beardmustache-brunette.svg";
-import facialHairE16381Goatee from "../assets/facialHair/E16381/beardmustache-brunette.svg";
+import facialHairE16381Goatee from "../assets/facialHair/E16381/goatee.svg";
 import facialHairE16381MustacheBlack from "../assets/facialHair/E16381/mustache-black.svg";
-import facialHairE16381Shadow from "../assets/facialHair/E16381/mustache-black.svg";
-import facialHairE16381Soulpatch from "../assets/facialHair/E16381/mustache-black.svg";
-import facialHairE16381Walrus from "../assets/facialHair/E16381/mustache-black.svg";
+import facialHairE16381Shadow from "../assets/facialHair/E16381/shadow.svg";
+import facialHairE16381Soulpatch from "../assets/facialHair/E16381/soulpatch.svg";
+import facialHairE16381Walrus from "../assets/facialHair/E16381/walrus.svg";
 
 import facialHairF29C65BeardmustacheBrunette from "../assets/facialHair/F29C65/beardmustache-brunette.svg";
-import facialHairF29C65Goatee from "../assets/facialHair/F29C65/beardmustache-brunette.svg";
+import facialHairF29C65Goatee from "../assets/facialHair/F29C65/goatee.svg";
 import facialHairF29C65MustacheBlack from "../assets/facialHair/F29C65/mustache-black.svg";
-import facialHairF29C65Shadow from "../assets/facialHair/F29C65/mustache-black.svg";
-import facialHairF29C65Soulpatch from "../assets/facialHair/F29C65/mustache-black.svg";
-import facialHairF29C65Walrus from "../assets/facialHair/F29C65/mustache-black.svg";
+import facialHairF29C65Shadow from "../assets/facialHair/F29C65/shadow.svg";
+import facialHairF29C65Soulpatch from "../assets/facialHair/F29C65/soulpatch.svg";
+import facialHairF29C65Walrus from "../assets/facialHair/F29C65/walrus.svg";
 
 export const facialHair = [
   facialHair362C47BeardmustacheBrunette,

@@ -1,26 +1,30 @@
 import React from "react";
 import { Carousel } from "../Carousel/Carousel";
 import { DisplayAvatar } from "../DisplayAvatar/DisplayAvatar";
-import { cavatar, parts } from "../state";
+import { BodyPart, cavatar, parts, Parts } from "../state";
 
 export const Carousels = ({}) => {
-  const next = (name: string) => {
+  const next = (name: BodyPart) => {
     cavatar.next(name);
   };
-  const prev = (name: string) => {
+  const prev = (name: BodyPart) => {
     cavatar.prev(name);
   };
 
   return (
     <>
-      <Carousel
-        bodySectionCollection={parts["backgrounds"]}
-        selected={cavatar["backgrounds"]}
-        name="backgrounds"
-        next={next}
-        prev={prev}
-      />
       <DisplayAvatar />
+      {(Object.keys(parts) as Array<BodyPart>).map((part) => {
+        return (
+          <Carousel
+            key={part}
+            bodySectionCollection={parts[part]}
+            name={part}
+            next={next}
+            prev={prev}
+          />
+        );
+      })}
     </>
   );
 };

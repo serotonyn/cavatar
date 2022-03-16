@@ -1,15 +1,15 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import { BodyPart } from "./BodyPart";
+import { BodyPartImage } from "./BodyPartImage";
 import { eyes } from "../../svgs";
 
 export default {
   title: "Cavatar/BodyPart",
-  component: BodyPart,
-} as ComponentMeta<typeof BodyPart>;
+  component: BodyPartImage,
+} as ComponentMeta<typeof BodyPartImage>;
 
-const Template: ComponentStory<typeof BodyPart> = (args) => (
-  <BodyPart {...args} />
+const Template: ComponentStory<typeof BodyPartImage> = (args) => (
+  <BodyPartImage {...args} />
 );
 
 export const Basic = Template.bind({});

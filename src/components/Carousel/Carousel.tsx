@@ -1,35 +1,36 @@
 import "./Carousel.scss";
 import React from "react";
-import { BodyPart } from "../BodyPart/BodyPart";
+import { BodyPartImage } from "../BodyPartImage/BodyPartImage";
 import { CarouselButton } from "../CarouselButton/CarouselButton";
+import { BodyPart, cavatar } from "../state";
+import { observer } from "mobx-react-lite";
 
 export interface CarouselProps {
   bodySectionCollection: string[];
-  selected: number;
-  name: string;
-  next: (name: string) => void;
-  prev: (name: string) => void;
+  name: BodyPart;
+  next: (name: BodyPart) => void;
+  prev: (name: BodyPart) => void;
 }
 
-export const Carousel = ({
-  bodySectionCollection,
-  selected,
-  name,
-  next,
-  prev,
-}: CarouselProps) => {
-  if (!name || !bodySectionCollection.length) {
-    return null;
+export const Carousel = observer(
+  ({ bodySectionCollection, name, next, prev }: CarouselProps) => {
+    if (!name || !bodySectionCollection.length) {
+      return null;
+    }
+    return (
+      <div id="carousel-container" data-testid="carousel-container">
+        <CarouselButton handleClick={() => prev(name)} direction="LEFT" />
+        {bodySectionCollection.map((item, i) => {
+          return (
+            <BodyPartImage
+              key={item}
+              isSelected={cavatar[name] == i}
+              imageSrc={item}
+            />
+          );
+        })}
+        <CarouselButton handleClick={() => next(name)} direction="RIGHT" />
+      </div>
+    );
   }
-  return (
-    <div id="carousel-container" data-testid="carousel-container">
-      <CarouselButton handleClick={() => prev(name)} direction="LEFT" />
-      {bodySectionCollection.map((item, i) => {
-        return (
-          <BodyPart key={item} isSelected={selected == i} imageSrc={item} />
-        );
-      })}
-      <CarouselButton handleClick={() => next(name)} direction="RIGHT" />
-    </div>
-  );
-};
+);
