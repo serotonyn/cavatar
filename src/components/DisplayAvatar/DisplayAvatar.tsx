@@ -4,7 +4,7 @@ import { BodyPartImage } from "../BodyPartImage/BodyPartImage";
 import { cavatar, parts } from "../state";
 import "./DisplayAvatar.scss";
 
-interface DisplayAvatarProps {}
+export interface DisplayAvatarProps {}
 
 export const DisplayAvatar = observer(({}: DisplayAvatarProps) => {
   return (

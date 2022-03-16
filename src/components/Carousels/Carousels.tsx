@@ -1,6 +1,5 @@
 import React from "react";
 import { Carousel } from "../Carousel/Carousel";
-import { DisplayAvatar } from "../DisplayAvatar/DisplayAvatar";
 import { BodyPart, cavatar, parts } from "../state";
 
 export const Carousels = ({}) => {
@@ -13,7 +12,6 @@ export const Carousels = ({}) => {
 
   return (
     <>
-      <DisplayAvatar />
       {(Object.keys(parts) as Array<BodyPart>).map((part) => {
         return (
           <Carousel
