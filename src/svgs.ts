@@ -13,94 +13,101 @@ import backgroundRed from "../assets/background/red.svg";
 import backgroundWhite from "../assets/background/white.svg";
 
 export const background = [
-  backgroundBlue,
-  backgroundBrown,
-  backgroundGreen,
-  backgroundGrenade,
-  backgroundGrey,
-  backgroundLime,
-  backgroundOrange,
-  backgroundPurple,
-  backgroundRed,
+  // backgroundBlue,
+  // backgroundBrown,
+  // backgroundGreen,
+  // backgroundGrenade,
+  // backgroundGrey,
+  // backgroundLime,
+  // backgroundOrange,
+  // backgroundPurple,
+  // backgroundRed,
   backgroundWhite,
 ];
 
 /* -------------------------------------------------------------------------------------------------
  * body
  * -----------------------------------------------------------------------------------------------*/
-import body456DFFCheckered from "../assets/body/456DFF/checkered.svg";
-import body456DFFRound from "../assets/body/456DFF/round.svg";
-import body456DFFSmall from "../assets/body/456DFF/small.svg";
-import body456DFFSquare from "../assets/body/456DFF/square.svg";
 
-import body54D7C7Checkered from "../assets/body/54D7C7/checkered.svg";
-import body54D7C7Round from "../assets/body/54D7C7/round.svg";
-import body54D7C7Small from "../assets/body/54D7C7/small.svg";
-import body54D7C7Square from "../assets/body/54D7C7/square.svg";
+import bodyBlueCheckered from "../assets/body/blue/checkered.svg";
+import bodyBlueRound from "../assets/body/blue/round.svg";
+import bodyBlueSmall from "../assets/body/blue/small.svg";
+import bodyBlueSquare from "../assets/body/blue/square.svg";
+import bodyBlueCurved from "../assets/body/blue/curved.svg";
+import bodyBluePull from "../assets/body/blue/pull.svg";
 
-import body5A45FFCheckered from "../assets/body/5A45FF/checkered.svg";
-import body5A45FFRound from "../assets/body/5A45FF/round.svg";
-import body5A45FFSmall from "../assets/body/5A45FF/small.svg";
-import body5A45FFSquare from "../assets/body/5A45FF/square.svg";
+import bodyGreenCheckered from "../assets/body/green/checkered.svg";
+import bodyGreenRound from "../assets/body/green/round.svg";
+import bodyGreenSmall from "../assets/body/green/small.svg";
+import bodyGreenSquare from "../assets/body/green/square.svg";
+import bodyGreenCurved from "../assets/body/green/curved.svg";
+import bodyGreenPull from "../assets/body/green/pull.svg";
 
-import body6DBB58Checkered from "../assets/body/6DBB58/checkered.svg";
-import body6DBB58Round from "../assets/body/6DBB58/round.svg";
-import body6DBB58Small from "../assets/body/6DBB58/small.svg";
-import body6DBB58Square from "../assets/body/6DBB58/square.svg";
+import bodyPinkCheckered from "../assets/body/pink/checkered.svg";
+import bodyPinkRound from "../assets/body/pink/round.svg";
+import bodyPinkSmall from "../assets/body/pink/small.svg";
+import bodyPinkSquare from "../assets/body/pink/square.svg";
+import bodyPinkCurved from "../assets/body/pink/curved.svg";
+import bodyPinkPull from "../assets/body/pink/pull.svg";
 
-import body7555CACheckered from "../assets/body/7555CA/checkered.svg";
-import body7555CARound from "../assets/body/7555CA/round.svg";
-import body7555CASmall from "../assets/body/7555CA/small.svg";
-import body7555CASquare from "../assets/body/7555CA/square.svg";
+import bodyPurpleCheckered from "../assets/body/purple/checkered.svg";
+import bodyPurpleRound from "../assets/body/purple/round.svg";
+import bodyPurpleSmall from "../assets/body/purple/small.svg";
+import bodyPurpleSquare from "../assets/body/purple/square.svg";
+import bodyPurpleCurved from "../assets/body/purple/curved.svg";
+import bodyPurplePull from "../assets/body/purple/pull.svg";
 
-import bodyE24553Checkered from "../assets/body/E24553/checkered.svg";
-import bodyE24553Round from "../assets/body/E24553/round.svg";
-import bodyE24553Small from "../assets/body/E24553/small.svg";
-import bodyE24553Square from "../assets/body/E24553/square.svg";
+import bodyYellowCheckered from "../assets/body/yellow/checkered.svg";
+import bodyYellowRound from "../assets/body/yellow/round.svg";
+import bodyYellowSmall from "../assets/body/yellow/small.svg";
+import bodyYellowSquare from "../assets/body/yellow/square.svg";
+import bodyYellowCurved from "../assets/body/yellow/curved.svg";
+import bodyYellowPull from "../assets/body/yellow/pull.svg";
 
-import bodyF3B63ACheckered from "../assets/body/F3B63A/checkered.svg";
-import bodyF3B63ARound from "../assets/body/F3B63A/round.svg";
-import bodyF3B63ASmall from "../assets/body/F3B63A/small.svg";
-import bodyF3B63ASquare from "../assets/body/F3B63A/square.svg";
-
-import bodyF55D81Checkered from "../assets/body/F55D81/checkered.svg";
-import bodyF55D81Round from "../assets/body/F55D81/round.svg";
-import bodyF55D81Small from "../assets/body/F55D81/small.svg";
-import bodyF55D81Square from "../assets/body/F55D81/square.svg";
+import bodyOrangeCheckered from "../assets/body/orange/checkered.svg";
+import bodyOrangeRound from "../assets/body/orange/round.svg";
+import bodyOrangeSmall from "../assets/body/orange/small.svg";
+import bodyOrangeSquare from "../assets/body/orange/square.svg";
+import bodyOrangeCurved from "../assets/body/orange/curved.svg";
+import bodyOrangePull from "../assets/body/orange/pull.svg";
 
 export const body = [
-  body456DFFCheckered,
-  body456DFFRound,
-  body456DFFSmall,
-  body456DFFSquare,
-  body54D7C7Checkered,
-  body54D7C7Round,
-  body54D7C7Small,
-  body54D7C7Square,
-  body5A45FFCheckered,
-  body5A45FFRound,
-  body5A45FFSmall,
-  body5A45FFSquare,
-  body6DBB58Checkered,
-  body6DBB58Round,
-  body6DBB58Small,
-  body6DBB58Square,
-  body7555CACheckered,
-  body7555CARound,
-  body7555CASmall,
-  body7555CASquare,
-  bodyE24553Checkered,
-  bodyE24553Round,
-  bodyE24553Small,
-  bodyE24553Square,
-  bodyF3B63ACheckered,
-  bodyF3B63ARound,
-  bodyF3B63ASmall,
-  bodyF3B63ASquare,
-  bodyF55D81Checkered,
-  bodyF55D81Round,
-  bodyF55D81Small,
-  bodyF55D81Square,
+  bodyBlueCheckered,
+  bodyBlueRound,
+  bodyBlueSmall,
+  bodyBlueSquare,
+  bodyBlueCurved,
+  bodyBluePull,
+  bodyGreenCheckered,
+  bodyGreenRound,
+  bodyGreenSmall,
+  bodyGreenSquare,
+  bodyGreenCurved,
+  bodyGreenPull,
+  bodyPinkCheckered,
+  bodyPinkRound,
+  bodyPinkSmall,
+  bodyPinkSquare,
+  bodyPinkCurved,
+  bodyPinkPull,
+  bodyPurpleCheckered,
+  bodyPurpleRound,
+  bodyPurpleSmall,
+  bodyPurpleSquare,
+  bodyPurpleCurved,
+  bodyPurplePull,
+  bodyYellowCheckered,
+  bodyYellowRound,
+  bodyYellowSmall,
+  bodyYellowSquare,
+  bodyYellowCurved,
+  bodyYellowPull,
+  bodyOrangeCheckered,
+  bodyOrangeRound,
+  bodyOrangeSmall,
+  bodyOrangeSquare,
+  bodyOrangeCurved,
+  bodyOrangePull,
 ];
 
 /* -------------------------------------------------------------------------------------------------
@@ -559,8 +566,6 @@ import skinC9E6DCHeadSkin1 from "../assets/skin/C9E6DC/head-skin1.svg";
 import skinE4A070HeadSkin1 from "../assets/skin/E4A070/head-skin1.svg";
 import skinE58F7BHeadSkin1 from "../assets/skin/E58F7B/head-skin1.svg";
 import skinF2AD9BHeadSkin1 from "../assets/skin/F2AD9B/head-skin1.svg";
-import skinFBD2C7HeadSkin1 from "../assets/skin/FBD2C7/head-skin1.svg";
-import skinFFCC22HeadSkin1 from "../assets/skin/FFCC22/head-skin1.svg";
 
 export const skin = [
   skin623D36HeadSkin1,
@@ -570,8 +575,6 @@ export const skin = [
   skinE4A070HeadSkin1,
   skinE58F7BHeadSkin1,
   skinF2AD9BHeadSkin1,
-  skinFBD2C7HeadSkin1,
-  skinFFCC22HeadSkin1,
 ];
 
 export default {
