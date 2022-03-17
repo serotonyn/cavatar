@@ -16,13 +16,13 @@ export const DisplayAvatar = observer(({}: DisplayAvatarProps) => {
       />
       <BodyPartImage
         className="display-avatar-image"
-        imageSrc={parts.bodys[cavatar["bodys"]]}
+        imageSrc={parts.skins[cavatar["skins"]]}
         isSelected
         imageSize={140}
       />
       <BodyPartImage
         className="display-avatar-image"
-        imageSrc={parts.skins[cavatar["skins"]]}
+        imageSrc={parts.bodys[cavatar["bodys"]]}
         isSelected
         imageSize={140}
       />
