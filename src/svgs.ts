@@ -2,27 +2,27 @@
  * background
  * -----------------------------------------------------------------------------------------------*/
 import backgroundBlue from "../assets/background/blue.svg";
-import backgroundDark from "../assets/background/dark.svg";
+import backgroundBrown from "../assets/background/brown.svg";
 import backgroundGreen from "../assets/background/green.svg";
+import backgroundGrenade from "../assets/background/grenade.svg";
 import backgroundGrey from "../assets/background/grey.svg";
-import backgroundPink from "../assets/background/pink.svg";
+import backgroundLime from "../assets/background/lime.svg";
+import backgroundOrange from "../assets/background/orange.svg";
 import backgroundPurple from "../assets/background/purple.svg";
 import backgroundRed from "../assets/background/red.svg";
-import backgroundTeal from "../assets/background/teal.svg";
 import backgroundWhite from "../assets/background/white.svg";
-import backgroundYellow from "../assets/background/yellow.svg";
 
 export const background = [
   backgroundBlue,
-  backgroundDark,
+  backgroundBrown,
   backgroundGreen,
+  backgroundGrenade,
   backgroundGrey,
-  backgroundPink,
+  backgroundLime,
+  backgroundOrange,
   backgroundPurple,
   backgroundRed,
-  backgroundTeal,
   backgroundWhite,
-  backgroundYellow,
 ];
 
 /* -------------------------------------------------------------------------------------------------
