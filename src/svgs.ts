@@ -13,15 +13,15 @@ import backgroundRed from "../assets/background/red.svg";
 import backgroundWhite from "../assets/background/white.svg";
 
 export const background = [
-  // backgroundBlue,
-  // backgroundBrown,
-  // backgroundGreen,
-  // backgroundGrenade,
-  // backgroundGrey,
-  // backgroundLime,
-  // backgroundOrange,
-  // backgroundPurple,
-  // backgroundRed,
+  backgroundBlue,
+  backgroundBrown,
+  backgroundGreen,
+  backgroundGrenade,
+  backgroundGrey,
+  backgroundLime,
+  backgroundOrange,
+  backgroundPurple,
+  backgroundRed,
   backgroundWhite,
 ];
 
