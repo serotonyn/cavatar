@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/serotonyn"
   },
-  "version": "0.0.65",
+  "version": "0.0.67",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -17,7 +17,8 @@
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "pack": "yarn pack"
+    "pack": "yarn pack",
+    "build:pack": "yarn rollup && yarn pack"
   },
   "author": "Serotonyn",
   "license": "ISC",
